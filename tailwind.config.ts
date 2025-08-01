@@ -52,16 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				skeleton: 'hsl(var(--skeleton))',
+				'image-overlay': 'hsl(var(--image-overlay))',
+				'joke-card': 'hsl(var(--joke-card))',
+				'joke-border': 'hsl(var(--joke-border))',
+				'like-button': 'hsl(var(--like-button))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
